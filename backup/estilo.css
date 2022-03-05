@@ -1,0 +1,417 @@
+/*** Estilização geral ***/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Verdana", sans-serif, sans;
+	color: #fff;
+}
+
+body#home {
+	background: #202020 url(imagens/fundo.png) repeat-y;
+}
+
+body#musicos {
+	background: #202020 url(imagens/fundo02.png) repeat-y;
+}
+
+#menu-principal ul .selecionado a {
+	color: #000000;
+}
+
+#minhaplaylist {
+	z-index: 99;
+	position: fixed;
+	right: 5px;
+	width: 400px;
+	height: 200px;
+}
+
+#minhaplaylistembed {
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	width: 354px;
+	height: 154px;
+	background: url(imagens/playlistfundotest02.png);
+}
+
+#minhaplaylistembed iframe {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+
+#minhaplaylist p {
+	text-align: center;
+}
+
+/*** Estilização do menu de topo ***/
+
+#menu-principal {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#menu-principal ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#menu-principal ul li {
+	float: left;
+	background: #892742;
+}
+
+#menu-principal ul a {
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #fff;
+	font-size: 20px;
+	background: url(imagens/divisor.png) repeat-y top left;
+}
+
+#menu-principal ul .primeiro a {
+	background: none;
+}
+
+#menu-principal ul a:hover {
+	color: #000000;
+	background: #bc375b;
+}
+
+/*** Estilização das logos de cabeçalho ***/
+
+#clearfloat {
+	clear: both;
+	color: #fff;
+	text-indent: -8000px;
+}
+
+#logo-cabecalho {
+	width: 1000px;
+	color: #fff;
+	margin-left: 246px;
+}
+
+#logo-cabecalho img {
+	padding-left: 150px;
+	width: 500px;
+}
+
+/*** Específico da página principal ***/
+
+#container-principal {
+	width: 800px;
+	margin-top: 40px;
+	margin-left: 40px;
+	background: url(imagens/divisor02.png) repeat-y right;
+	color: #fff;
+}
+
+#container-principal a {
+	text-decoration: none;
+	color: #bc375b;
+}
+
+#container-principal a:hover {
+	color: #892742;
+}
+
+#container-principal h2 {
+	padding-left: 30px;
+}
+
+#container-principal p {
+	padding-top: 10px;
+}
+
+#container-principal img {
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+	width: 500px;
+
+}
+
+#container-lateral {
+	width: 600px;
+	position: absolute;
+	left: 880px;
+	top: 181px;
+	/***
+	margin-left: 880px;
+	margin-top: -280px;
+	***/
+	padding-left: 5px;
+	background: url(imagens/divisor02.png) repeat-y;
+	color: #fff;
+}
+
+#container-lateral .favoritos {
+	padding-left: 30px;
+	color: #892742;
+}
+
+#container-lateral p {
+	padding-top: 10px;
+}
+
+.conteudo-lateral {
+	width: 560px;
+	height: 50px;
+	margin: 20px;
+}
+
+.conteudo-lateral p {
+	font-weight: bold;
+}
+
+.conteudo-lateral img {
+	width: 40px;
+	position: relative;
+	left: 320px;
+	bottom: 23px;
+}
+
+#container-lateral a:hover {
+    content: url(imagens/onda-icone-2.png);
+    display: block;
+    width: 40px;
+	position: relative;
+	left: 320px;
+	bottom: 23px;
+}
+
+.divisor02-baixo img {
+ width: 560px;
+ height: 2px;
+ position: relative;
+ left: -3px;
+ bottom: -3px;
+}
+
+#musicos .divisor02-baixo img {
+ width: 1303px;
+ height: 3px;
+}
+
+/*** Específico da página Músicos ***/
+
+#musicos #container-principal {
+	width: 1300px;
+	margin-top: 40px;
+	margin-left: 40px;
+	background: url(imagens/divisor02.png) repeat-y right;
+	color: #fff;
+}
+
+#musicos #container-principal h2 {
+	padding-left: 30px;
+}
+
+#musicos #container-principal p {
+	padding-top: 10px;
+}
+
+#musicos .div-musicos img {
+	display: block;
+	padding-top: 20px;
+	margin-left: 200px;
+	width: 500px;
+
+}
+
+.div-musicos {
+	width: 1000px;
+}
+
+#musicos .divalb-ep-inner a.principal-albep {
+	position: relative;
+	left: 140px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#musicos .divalb-ep-inner a:hover.principal-albep {
+	position: relative;
+	left: 140px;
+	text-decoration: none;
+	color: #bc375b;
+}
+
+#musicos .divalb-ep-inner a {
+	color: #bc375b;
+}
+
+#musicos .divalb-ep-inner a:hover {
+	text-decoration: none;
+	color: #892742;
+}
+
+.h2musicos {
+	padding-top: 20px;
+	margin-left: 80px;
+}
+
+.alb-ep {
+	margin-left: 20px;
+}
+
+.divalb-ep {
+	width: 999px;
+	margin-top: 20px;
+}
+
+.divalb-ep-inner {
+	width: 600px;
+	height: 500px;
+}
+
+#musicos h4 {
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+#musicos .divealb-ep-inner-img img {
+	width: 300px;
+	position: relative;
+	left: 500px;
+	bottom: 523px;
+}
+
+.divealb-ep-inner-img iframe {
+	width: 400px;
+	position: absolute;
+	left: 642px;
+	top: 870px;
+}
+
+.rede-social-musicos-youtube {
+	position: absolute;
+	left: 1040px;
+	top: 300px;
+	width: 295px;
+}
+
+.rede-social-musicos-spotify {
+	position: absolute;
+	left: 1040px;
+	top: 390px;
+	width: 295px;
+}
+
+.rede-social-musicos-soundcloud {
+	position: absolute;
+	left: 1040px;
+	top: 480px;
+	width: 295px;
+}
+
+.rede-social-musicos-instagram {
+	position: absolute;
+	left: 1040px;
+	top: 570px;
+	width: 295px;
+}
+
+.rede-social-musicos-twitter {
+	position: absolute;
+	left: 1040px;
+	top: 660px;
+	width: 295px;
+}
+
+#musicos .rede-social-musicos p.conteudo-lateral {
+	height: 40px;
+}
+
+#musicos .rede-social-musicos img.link-youtube {
+	position: absolute;
+	left: 180px;
+	bottom: 25px;
+	width: 50px;
+}
+
+#musicos a:hover.link-youtube {
+	content: url(imagens/youtube02.png);
+    display: block;
+    width: 50px;
+	position: absolute;
+	left: 180px;
+	bottom: 25px;
+}
+
+#musicos .rede-social-musicos img.link-spotify {
+	position: absolute;
+	left: 170px;
+	bottom: 25px;
+	width: 50px;
+}
+
+#musicos a:hover.link-spotify {
+	content: url(imagens/spotify02.png);
+    display: block;
+    width: 50px;
+	position: absolute;
+	left: 170px;
+	bottom: 25px;
+}
+
+#musicos .rede-social-musicos img.link-soundcloud {
+	position: absolute;
+	left: 215px;
+	bottom: 28px;
+	width: 50px;
+}
+
+#musicos a:hover.link-soundcloud {
+	content: url(imagens/soundcloud02.png);
+    display: block;
+    width: 50px;
+	position: absolute;
+	left: 215px;
+	bottom: 28px;
+}
+
+#musicos .rede-social-musicos img.link-instagram {
+	position: absolute;
+	left: 200px;
+	bottom: 25px;
+	width: 50px;
+}
+
+#musicos a:hover.link-instagram {
+	content: url(imagens/instagram02.png);
+    display: block;
+    width: 50px;
+	position: absolute;
+	left: 200px;
+	bottom: 25px;
+}
+
+#musicos .rede-social-musicos img.link-twitter {
+	position: absolute;
+	left: 170px;
+	bottom: 25px;
+	width: 50px;
+}
+
+#musicos a:hover.link-twitter {
+	content: url(imagens/twitter02.png);
+    display: block;
+    width: 50px;
+	position: absolute;
+	left: 170px;
+	bottom: 25px;
+}
+
+#divtest {
+	border: 5px solid blue;
+}
